@@ -3,11 +3,13 @@ html {
 
 body {
   background-image: url(./img/MAP.png);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   height: 100vh;
+  min-height:0px;
   width: 100vw;
+  min-width:0px;
   margin: 0;
   padding: 0;
 }
@@ -34,7 +36,7 @@ body {
 
 .locationT1 {
   position: absolute;
-  left:47vw;
+  left:49vw;
   top:73vh;
 }
 
@@ -44,7 +46,7 @@ body {
 
 
 .timg{
-  height:100px;
-  width:auto;
+  height:5vh;
+  width:5vw;
   opacity: 0.9;
 }
