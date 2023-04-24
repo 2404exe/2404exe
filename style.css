@@ -1,48 +1,41 @@
-html{
-
+html {
 }
 
-body{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg');
-    background-size:100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width:100vw;
-    margin: 0;
-    padding:0;
+body {
+  background-image: url("/img/MAP.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    position:relative;
-
+.container {
+  position: relative;
 }
 
-.locationM1{
-    position:absolute;
-
+.locationM1 {
+  position: absolute;
 }
 
-.locationM2{
-    position:absolute;
-
+.locationM2 {
+  position: absolute;
 }
 
-.locationD1{
-    position:absolute;
-
+.locationD1 {
+  position: absolute;
 }
 
-.locationD2{
-    position:absolute;
-    
+.locationD2 {
+  position: absolute;
 }
 
-.locationT1{
-    position:absolute;
-
+.locationT1 {
+  position: absolute;
 }
 
-.locationT2{
-    position:absolute;
-    
+.locationT2 {
+  position: absolute;
 }
