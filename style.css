@@ -3,11 +3,13 @@ html {
 
 body {
   background-image: url(./img/MAP.png);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   height: 100vh;
+  min-height: 0px;
   width: 100vw;
+  min-width: 0px;
   margin: 0;
   padding: 0;
 }
@@ -15,15 +17,30 @@ body {
 .container {
   position: relative;
 }
+/* MICHAEL CSS */
 
-.locationM1 {
+nav {
+  display: block;
+  background-color: black;
+  color: white;
   position: absolute;
+  width: 100vw;
+}
+
+nav h1 {
+  padding-left: 100px;
+}
+
+#taipei {
+  width: 200px;
 }
 
 .locationM2 {
   position: absolute;
+  top: 20vh;
+  left: 65vw;
 }
-
+/* MICHAEL CSS */
 .locationD1 {
   position: absolute;
 }
@@ -34,17 +51,21 @@ body {
 
 .locationT1 {
   position: absolute;
-  left:47vw;
-  top:73vh;
+  left: 49vw;
+  top: 73vh;
 }
 
 .locationT2 {
   position: absolute;
 }
 
-
-.timg{
-  height:100px;
-  width:auto;
+.timg {
+  height: 5vh;
+  width: 5vw;
   opacity: 0.9;
+}
+
+.timg:hover {
+  height: 12vh;
+  width: 12vw;
 }
