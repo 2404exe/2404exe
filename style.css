@@ -2,7 +2,7 @@ html {
 }
 
 body {
-  background-image: url("/img/MAP.png");
+  background-image: url("img/MAP.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -16,8 +16,16 @@ body {
   position: relative;
 }
 
-.locationM1 {
+nav {
+  display: block;
+  background-color: black;
+  color: white;
   position: absolute;
+  width: 100vw;
+}
+
+nav h1 {
+  padding-left: 100px;
 }
 
 .locationM2 {
