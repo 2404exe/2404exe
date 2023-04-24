@@ -17,12 +17,32 @@ body{
 
 }
 
-.location1{
+.locationM1{
     position:absolute;
 
 }
 
-.location2{
+.locationM2{
+    position:absolute;
+
+}
+
+.locationD1{
+    position:absolute;
+
+}
+
+.locationD2{
+    position:absolute;
+    
+}
+
+.locationT1{
+    position:absolute;
+
+}
+
+.locationT2{
     position:absolute;
     
 }
