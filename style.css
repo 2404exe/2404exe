@@ -34,8 +34,17 @@ body {
 
 .locationT1 {
   position: absolute;
+  left:47vw;
+  top:73vh;
 }
 
 .locationT2 {
   position: absolute;
+}
+
+
+.timg{
+  height:100px;
+  width:auto;
+  opacity: 0.9;
 }
