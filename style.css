@@ -28,8 +28,14 @@ nav h1 {
   padding-left: 100px;
 }
 
+#taipei {
+  width: 200px;
+}
+
 .locationM2 {
   position: absolute;
+  top: 20vh;
+  left: 65vw;
 }
 
 .locationD1 {
