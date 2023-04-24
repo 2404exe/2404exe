@@ -25,3 +25,22 @@ body {
     font-size: larger;
     color: white;
   }
+
+  .tntext{
+    display:flex;
+    height:70vh;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .box1{
+    border: 2px purple solid;
+    border: radius 15px;
+    max-width:40vw;
+  }
+
+  .box2{
+    border: 2px green solid;
+    border: radius 15px;
+    max-width:40vw;
+  }
