@@ -50,3 +50,18 @@ body {
   width:5vw;
   opacity: 0.9;
 }
+
+.timg:hover {
+  height:12vh;
+  width:12vw;
+
+}
+
+.tnnav_bar{
+  height:10vh;
+  width:100vw;
+  background-color: black;
+  color:white;
+  display:flex;
+  justify-content: space-evenly;
+}

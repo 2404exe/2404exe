@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://peanutwalker.com/wp-content/uploads/20191101201330_64.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    min-height:0px;
+    width: 100vw;
+    min-width:0px;
+    margin: 0;
+    padding: 0;
+  }
+
+.tnnav_bar{
+    height:10vh;
+    width:100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .tnnav_bar a{
+    font-size: larger;
+    color: white;
+  }
