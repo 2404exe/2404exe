@@ -15,6 +15,7 @@ body {
 .container {
   position: relative;
 }
+/* MICHAEL CSS */
 
 nav {
   display: block;
@@ -37,7 +38,7 @@ nav h1 {
   top: 20vh;
   left: 65vw;
 }
-
+/* MICHAEL CSS */
 .locationD1 {
   position: absolute;
 }
