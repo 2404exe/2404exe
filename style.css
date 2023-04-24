@@ -57,11 +57,3 @@ body {
 
 }
 
-.tnnav_bar{
-  height:10vh;
-  width:100vw;
-  background-color: black;
-  color:white;
-  display:flex;
-  justify-content: space-evenly;
-}
