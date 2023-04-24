@@ -28,7 +28,7 @@ body {
 
   .tntext{
     display:flex;
-    height:70vh;
+    height:80vh;
     justify-content: space-around;
     align-items: center;
   }
@@ -39,8 +39,17 @@ body {
     max-width:40vw;
   }
 
+.box1 p{
+    font-size: larger;
+    font-weight: 900;
+}
   .box2{
     border: 2px green solid;
     border: radius 15px;
     max-width:40vw;
   }
+
+.box2 p{
+    font-size: larger;
+    font-weight: 900;
+}
