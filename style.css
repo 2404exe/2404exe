@@ -1,0 +1,28 @@
+html{
+
+}
+
+body{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100vw;
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    position:relative;
+
+}
+
+.location1{
+    position:absolute;
+
+}
+
+.location2{
+    position:absolute;
+    
+}
