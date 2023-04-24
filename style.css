@@ -2,7 +2,7 @@ html {
 }
 
 body {
-  background-image: url(img/MAP.png);
+  background-image: url(./img/MAP.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
