@@ -47,8 +47,15 @@ nav h1 {
 
 .locationD2 {
   position: absolute;
+  left: 52vw;
+  top: 45vh;
 }
 
+.locationD2 a #taichung{
+  position: absolute;
+  width: 5vw;
+  height: 8vh;
+}
 .locationT1 {
   position: absolute;
   left: 49vw;
