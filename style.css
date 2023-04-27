@@ -47,7 +47,7 @@ nav h1 {
 
 .locationD2 {
   position: absolute;
-  left: 52vw;
+  left: 57vw;
   top: 45vh;
 }
 
@@ -149,14 +149,14 @@ nav h1 {
     left:5vw;
   }
   20%{
-    top:45vh;
+    top:55vh;
     left:5vw;
     transform: rotate(90deg);
   }
 
   100%{
-    left:45vw;
-    top:50vh;
+    left:57vw;
+    top:55vh;
     transform: rotate(90deg);
   }
 }
