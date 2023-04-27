@@ -64,6 +64,12 @@ nav h1 {
 
 .locationT2 {
   position: absolute;
+  top:85vh;
+  left:5vw;
+  animation-name:flytotainan;
+  animation-iteration-count: infinite;
+  animation-duration:5s;
+  animation-timing-function:linear;
 }
 
 .timg {
@@ -75,4 +81,82 @@ nav h1 {
 .timg:hover {
   height: 12vh;
   width: 12vw;
+}
+
+.plane{
+  height:5vh;
+  width:auto;
+}
+
+@keyframes flytotainan{
+  0%{
+    top:85vh;
+    left:5vw;
+  }
+  20%{
+    top:73vh;
+    left:5vw;
+    transform: rotate(90deg);
+  }
+
+  100%{
+    left:45vw;
+    top:73vh;
+    transform: rotate(90deg);
+  }
+}
+
+.locationT3 {
+  position: absolute;
+  top:85vh;
+  left:5vw;
+  animation-name:flytotaipei;
+  animation-iteration-count: infinite;
+  animation-duration:5s;
+  animation-timing-function:linear;
+}
+
+.locationT4 {
+  position: absolute;
+  top:85vh;
+  left:5vw;
+  animation-name:flytotaichung;
+  animation-iteration-count: infinite;
+  animation-duration:5s;
+  animation-timing-function:linear;
+}
+
+@keyframes flytotaipei{
+  0%{
+    top:85vh;
+    left:5vw;
+  }
+  20%{
+    top:35vh;
+    left:5vw;
+    transform: rotate(90deg);
+  }
+  100%{
+    left:72vw;
+    top:35vh;
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes flytotaichung{
+  0%{
+    top:85vh;
+    left:5vw;
+  }
+  20%{
+    top:45vh;
+    left:5vw;
+    transform: rotate(90deg);
+  }
+
+  100%{
+    left:45vw;
+    top:50vh;
+    transform: rotate(90deg);
+  }
 }
